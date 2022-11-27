@@ -1,0 +1,28 @@
+/* styles.css */
+
+#title {
+    font-size: 40px;
+    font-weight: bolder;
+    color: gray;
+    background-color: black;
+    border: solid 4px gray;
+    border-width: 10px;
+    text-align: center;
+    text-underline-position: below;
+}
+    
+ img {
+    height: 300px;
+    width: 300px;
+    border: solid 4px gray
+}
+#list1 {
+    font-size:medium;
+    text-align: center;
+    
+}
+    .read,
+    .unread{
+        color: blue;
+        background-color: black;
+    }
