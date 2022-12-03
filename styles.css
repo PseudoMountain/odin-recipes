@@ -1,28 +1,75 @@
 /* styles.css */
 
+* {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 20px;
+
+}
+    
 #title {
     font-size: 40px;
     font-weight: bolder;
-    color: gray;
-    background-color: black;
+    background-color: darkgrey;
     border: solid 4px gray;
     border-width: 10px;
     text-align: center;
     text-underline-position: below;
+    
 }
     
- img {
+ img   {
     height: 300px;
     width: 300px;
-    border: solid 4px gray
-}
-#list1 {
-    font-size:30px;
-    text-align: center;
+    border: solid 4px gray;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 30%;
+    background-color: darkgrey;
     
 }
-    .read,
-    .unread{
-        color: blue;
-        background-color: black;
-    }
+
+#list1 {
+    font-size:30px;
+    
+}
+body {
+    background-color: darkgrey;
+}
+
+#header {
+    font-size: 80px;
+    padding: 7px 7px;
+    border: dotted 5px black;
+    margin: 40px;
+}
+
+.Recipebox {
+    border: 5px solid darkblue;
+    background-color: lightgray;
+    font-style: italic;
+    margin: -5px;
+}
+
+#CPPH1 {
+    text-align: center;
+    padding-left: 40px;
+    font-size: 50px;
+    margin: 5px;
+}
+#RTT, #RTMP {
+    text-align: center;
+    padding-left: 70px;
+    font-size: 30px;
+   
+}
+
+#h4 {
+    text-decoration-line: underline overline;
+}
+
+span {
+    background-color: yellow;
+}
