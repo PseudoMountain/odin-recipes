@@ -28,7 +28,7 @@
     margin-right:auto;
     width: 30%;
     background-color: darkgrey;
-    
+    box-shadow: 1px 5px 5px 2px;
 }
 
 #list1 {
@@ -73,4 +73,46 @@ body {
 span {
     background-color: yellow;
     margin-left: 30px;
+}
+/* dropdown button */
+.dropbtn {
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    
+}
+/* div container used for dropdown content position*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+/* hidden dropdown content*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: darkgray;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px black;
+    z-index: 1;
+}
+/* links inside dropdown */
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+/* color of dropdown links (hover)*/
+.dropdown-content a:hover {
+    background-color: green;
+}
+/* show the dropdown on hover*/
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn{
+    background-color: green;
 }
