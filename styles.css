@@ -1,49 +1,48 @@
 /* styles.css */
+   
 
-* {
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    font-size: 20px;
-
-}
-    
-#title {
-    font-size: 40px;
-    font-weight: bolder;
-    background-color: darkgrey;
-    border: solid 4px gray;
-    border-width: 10px;
-    text-align: center;
-    text-underline-position: below;
-    
-}
-    
- img   {
+img   {
     height: 300px;
     width: 300px;
     border: solid 4px gray;
     display: block;
     margin-left: auto;
-    margin-right:auto;
-    width: 30%;
+    margin-right: auto;
     background-color: darkgrey;
     box-shadow: 1px 5px 5px 2px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+#title {
+    text-align: center;
+    font-size: 80px;
+    margin: none;
+    padding: none;
+    border: 5px solid black;
+    display: block;
 }
 
 #list1 {
-    font-size:30px;
-    
+    font-size: 100px;
+    text-align: center;
+    margin: none;
+    padding: none;
+    list-style-type: none;
 }
+
 body {
     background-color: darkgrey;
+    text-align: auto;
 }
 
 #header {
     font-size: 80px;
-    padding: 7px 7px;
-    border: dotted 5px black;
-    margin: 40px;
+    border: solid 5px black;
+    text-align: center;
+    position: relative;
+    margin: none;
+    padding: none;
+    box-shadow: 2px 4px 5px 3px;
 }
 
 .Recipebox {
@@ -53,7 +52,7 @@ body {
     margin: -5px;
 }
 
-.CPPH1 {
+.Ingredients {
     text-align: center;
     padding-left: 40px;
     font-size: 50px;
@@ -61,19 +60,22 @@ body {
 }
 #RTT, #RTMP {
     text-align: center;
-    margin-left: 70px;
+    margin-left: 200px;
     font-size: 30px;
+    
+    
+}
+
+/*highlighted text*/
+span  {
+    background-color: yellow;
    
 }
+p {
+    text-align: center;
 
-#h4 {
-    text-decoration-line: underline overline;
 }
 
-span {
-    background-color: yellow;
-    margin-left: 30px;
-}
 /* dropdown button */
 .dropbtn {
     background-color: gray;
@@ -81,32 +83,36 @@ span {
     font-size: 20px;
     border: none;
     cursor: pointer;
-    
+    margin-left: auto;
+    text-align: left;
 }
-/* div container used for dropdown content position*/
+
+/* div container used for dropdown content position */
 .dropdown {
     position: relative;
-    display: inline-block;
+    text-align: left;
 }
 /* hidden dropdown content*/
 .dropdown-content {
-    display: none;
     position: absolute;
     background-color: darkgray;
     min-width: 100px;
     box-shadow: 0px 8px 16px black;
     z-index: 1;
+    display: none;
+    
 }
 /* links inside dropdown */
 .dropdown-content a {
     color: black;
     text-decoration: none;
     display: block;
+    
 }
 
 /* color of dropdown links (hover)*/
 .dropdown-content a:hover {
-    background-color: green;
+    background-color: blue;
 }
 /* show the dropdown on hover*/
 .dropdown:hover .dropdown-content {
@@ -114,5 +120,13 @@ span {
 }
 
 .dropdown:hover .dropbtn{
-    background-color: green;
+    background-color: rgb(2, 5, 2);
+}
+
+
+* {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
 }
